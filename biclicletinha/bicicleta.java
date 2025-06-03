@@ -1,9 +1,9 @@
     package bicicletinha;
-    public class bicicleta {
+    public class Bicicleta {
     private int velocidade;
     private int marcha;
 
-    public bicicleta() {
+    public Bicicleta() {
         this.velocidade = 0;
         this.marcha = 0;
     }
