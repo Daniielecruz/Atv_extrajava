@@ -32,7 +32,7 @@
         }
     }
 
-    public void imprimirEstado() {
+    public void imprimirEstados() {
         System.out.println("Velocidade: " + this.velocidade + " km/h | Marcha: " + this.marcha);
     }
 }

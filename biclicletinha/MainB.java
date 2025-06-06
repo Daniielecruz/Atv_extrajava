@@ -1,18 +1,18 @@
 package bicicletinha;
 public class MainB {
     public static void main(String[] args) {
-        Bicicleta bycicle = new Bicicleta();
+        Bicicleta bicycle = new Bicicleta();
 
-        bycicle.imprimirEstado();
+        bicycle.imprimirEstado();
 
         for (int i = 0; i < 7; i++) {
-            bycicle.acelerar();
-            bycicle.imprimirEstado();
+            bicycle.acelerar();
+            bicycle.imprimirEstados();
         }
 
         for (int i = 0; i < 4; i++) {
-            bycicle.frear();
-            bycicle.imprimirEstado();
+            bicycle.frear();
+            bicycle.imprimirEstados();
         }
     }
 }
